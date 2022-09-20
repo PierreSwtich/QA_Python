@@ -49,10 +49,3 @@ print(cities['city']) #Print all the cities in the list
 print('')
 
 print(cities['city'][0]) # It returns only the first city from the list
-
-
-
-
-
-
-

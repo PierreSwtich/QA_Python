@@ -30,7 +30,7 @@ while True:
         if choice == '3':
             print(int(multiply(num1, num2)))
         if choice == '4' and num2 != 0:
-            print("{:.2f}".format(divide(num1, num2))) #Brak int() ponieważ dzielenie może mieć miejsce po przecinku, użytya została również formuła formato by zmniejszyć miejsce po przecinku do 2
+            print("{:.2f}".format(divide(num1, num2))) # No int() function as the divide can have a declimal point, alos i have used the .format option to limit the declimal point to 2
         if choice == '4' and num2 == 0: 
             print('Nie można dzielić przez 0')
     else:

@@ -1,6 +1,5 @@
 print("Hello World")
 
-from email.generator import Generator
 import random
 
 #Random number Generator
